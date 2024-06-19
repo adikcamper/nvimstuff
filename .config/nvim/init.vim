@@ -24,7 +24,7 @@ map <F2> :call Help()<CR>
 map <F3> :call WhiteChars()<CR>
 map <F4> :s/\s\+$//
 map <F5> :call Numbers()<CR>
-map <F6> :s/^/#
+" map <F6> :s/^/#
 map <F7> :s/^[\ \t]*\n//
 map <F9> :tabprevious<CR>
 map <F10> :tabnext<CR>
@@ -35,7 +35,7 @@ func! Help()
   echo "F3 - Show hidden characters"
   echo "F4 - Remove hidden characters at EOL (First, select a few lines)"
   echo "F5 - line numbers"
-  echo "F6 - Comment with # (First, select a few lines)"
+  " echo "F6 - Comment with # (First, select a few lines)"
   echo "F7 - Remove empty lines"
   echo "F9 - Previous tab"
   echo "F10 - Next tab"
