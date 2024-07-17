@@ -58,7 +58,7 @@ inoremap <silent><expr> <c-space> coc#refresh()
 
 let g:loaded_ruby_provider = 0
 let g:loaded_perl_provider = 0
-let g:python3_host_prog = expand('/home/adrian.szulc/.local/python3.11/bin/python3.11')
+let g:python3_host_prog = expand('/usr/bin/python3.12')
 let g:airline#extensions#tabline#enabled = 0
 let g:airline_theme='understated'
 let g:coc_global_extensions = ['coc-tslint-plugin', 'coc-tsserver', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-pyright', 'coc-yaml', 'coc-java']
